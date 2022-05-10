@@ -200,7 +200,15 @@ color: var(--header-text-color);
 }
 
 .hero-btn {
-  margin: 0px 500px 200px ;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+ 
+  padding: 10px 32px;
+
+  min-width: 200px;
+  min-height: 50px;
   
   border-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

@@ -200,8 +200,6 @@ color: var(--header-text-color);
 }
 
 .hero-btn {
-  display: block;
-
   margin-left: auto;
   margin-right: auto;
  

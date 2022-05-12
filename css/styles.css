@@ -89,26 +89,24 @@ img {
 }
 
 .section {
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 /* *Header* */
 
-.hero-section {
+.header {
   width: 1200px;
-  background-color: var(--hero-footer-bg-color);
-  padding-top: 200px;
-  padding-bottom: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
   height: 80px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
+  
 }
 
 .navigation,
@@ -195,6 +193,15 @@ img {
   text-align: center;
 }
 
+.hero-section {
+  width: 1200px;
+  background-color: var(--hero-footer-bg-color);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
   padding-bottom: 30px;
   color: var(--hero-text-color);
@@ -238,10 +245,6 @@ img {
 }
 
 /* *Feature* */
-
-.feature-section {
-  width: 1200px;
-}
 
 .feature-container {
   display: flex;
@@ -302,9 +305,13 @@ img {
 /* *Team* */
 
 .team-section {
-  width: 1200px;
   background-color: var(--secondary-bg-color);
   padding-top: 0;
+}
+
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-item {
@@ -324,8 +331,7 @@ img {
 }
 
 .team-name {
-  padding-top: 30px;
-
+  padding-bottom: 10px;
   color: var(--header-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -335,9 +341,6 @@ img {
 }
 
 .team-position {
-  padding-top: 10px;
-  padding-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -348,13 +351,14 @@ img {
 
 .footer {
   width: 1200px;
+  padding: 60px 0px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--hero-footer-bg-color);
 }
 
 .footer-container {
-  padding: 60px 0px;
+  
 }
 
 .logo-primary-footer {
@@ -414,7 +418,7 @@ img {
   align-items: center;
   justify-content: center;
 
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .gallery-nav-item {
@@ -426,7 +430,7 @@ img {
 }
 
 .nav-btn {
-  padding: 12px 22px;
+  padding: 6px 22px;
 
   color: var(--header-text-color);
   background-color: var(--secondary-bg-color);

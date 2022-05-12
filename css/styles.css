@@ -305,6 +305,9 @@ img {
 /* *Team* */
 
 .team-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--secondary-bg-color);
   padding-top: 0;
 }
